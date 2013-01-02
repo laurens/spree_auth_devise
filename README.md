@@ -1,5 +1,8 @@
 # Spree Auth (Devise)
 
+[![Build Status](https://secure.travis-ci.org/spree/spree_auth_devise.png?branch=master)](https://travis-ci.org/spree/spree_auth_devise)
+[![Code Climate](https://codeclimate.com/badge.png)](https://codeclimate.com/github/spree/spree_auth_devise)
+
 Provides authentication services for Spree, using the Devise gem.
 
 ## Installation
@@ -31,7 +34,7 @@ You need to do a quick one-time creation of a test application and then you can 
 
     bundle exec rake test_app
 
-Then run the rspec tests
+Then run the rspec tests.
 
     bundle exec rake spec
 
